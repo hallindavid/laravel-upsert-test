@@ -1,6 +1,6 @@
 <div class="p-2 flex flex-col">
     <div>
-        <h1 class="text-xl">Test {{ $testNumber }} results</h1>
+        <h1 class="text-xl">Test {{ $testNumber }} results.   # Records: {{ $results->count() }} </h1>
     </div>
     <div class="flex flex-col">
         <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">

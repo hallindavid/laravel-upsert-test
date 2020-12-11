@@ -77,3 +77,8 @@ TestTask::query()->whereIn('id', $ids)->update([
 	'sort_order' => DB::raw($build_query)
 ]);
 ```
+
+
+### test results
+
+check out my <a href="https://davidhallin.com/blog/testing-upsert-vs-update-case/">test results</a> on my blog post.

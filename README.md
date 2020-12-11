@@ -77,8 +77,3 @@ TestTask::query()->whereIn('id', $ids)->update([
 	'sort_order' => DB::raw($build_query)
 ]);
 ```
-
-### results
-
-
-
